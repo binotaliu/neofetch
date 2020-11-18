@@ -2094,10 +2094,11 @@ get_wm_theme() {
                 0)  wm_theme_color=Red ;;
                 1)  wm_theme_color=Orange ;;
                 2)  wm_theme_color=Yellow ;;
+                4)  wm_theme_color=Blue ;;
                 3)  wm_theme_color=Green ;;
                 5)  wm_theme_color=Purple ;;
                 6)  wm_theme_color=Pink ;;
-                *)  wm_theme_color=Blue ;;
+                *)  wm_theme_color=Multicolor ;;
             esac
 
             wm_theme="$wm_theme_color ($wm_theme)"
